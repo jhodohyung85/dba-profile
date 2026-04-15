@@ -31,7 +31,7 @@ export function ContactSection() {
         </p>
 
         <p className="text-muted-foreground mb-10 max-w-lg mx-auto text-pretty">
-          클라우드 DB 이관, 성능 최적화, HA 아키텍처 설계 등 
+          클라우드 DB 이관, 성능 최적화, HA 아키텍처 설계 등
           데이터베이스 관련 모든 문의를 환영합니다.
         </p>
 
@@ -66,12 +66,12 @@ export function ContactSection() {
               </>
             )}
           </Button>
-          
+
           <Button
             asChild
             className="w-full sm:w-auto gap-2 font-mono bg-gradient-to-r from-postgresql to-mysql hover:opacity-90"
           >
-            <a href="/resume.pdf" download>
+            <a href="/jhodohyung_resume.pdf" download>
               <Download className="w-4 h-4" />
               이력서 PDF 다운로드
             </a>
